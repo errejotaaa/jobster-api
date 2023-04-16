@@ -157,8 +157,6 @@ const showStats = async (req: Request, res: Response) => {
     })
     .reverse();
 
-  console.log(monthlyApplications);
-
   res.status(StatusCodes.OK).json({ defaultStats, monthlyApplications });
 };
 
