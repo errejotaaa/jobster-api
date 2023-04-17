@@ -54,7 +54,7 @@ export class App {
 
   public setIndexHTML() {
     this.app.get("*", (req: Request, res: Response) => {
-      res.sendFile(path.resolve(__dirname, "../client/build", "index.html"));
+      res.sendFile(path.resolve(__dirname, "./client/build", "index.html"));
     });
   }
 
