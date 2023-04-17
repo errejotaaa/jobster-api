@@ -25,7 +25,7 @@ const getConfig = (
           parallel: false,
         },
         onBuildEnd: {
-          scripts: ["npm run prod"],
+          //scripts: ["npm run prod"],
           blocking: false,
           parallel: true,
         },
